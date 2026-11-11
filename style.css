@@ -146,6 +146,8 @@ ul, ol { padding: 0; margin: 0; list-style: none; }
   color: var(--vermelho);
 }
 
+.oculto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
 .morse { display: flex; flex-wrap: wrap; gap: .4rem 1.4rem; margin: 1.25rem 0 0; }
 
 .letra { display: flex; gap: .4rem; align-items: center; }
